@@ -13,7 +13,6 @@ long long solution(vector<long long> tree, long long low, long long high){
 		if(tree[i]<mid) continue;
 		total += tree[i] - mid;
 	}
-
 	if(total == M)
 		return mid;
 	if(low>=high)
