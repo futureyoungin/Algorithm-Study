@@ -27,10 +27,6 @@ void same_parent(int parent[10001], int a, int b){
 }
 
 int main(){
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL); cout.tie(NULL);
-	freopen("Input.txt", "r", stdin);
-
 	int V, E, a, b, c, total = 0;
 	vector<line> v;
 	int parent[10001] = {0};
